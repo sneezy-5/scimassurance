@@ -26,11 +26,10 @@
 							<tr>
 								<th scope="row">{{$newsletter->id}}</th>
 								<td>{{$newsletter->adresse_mail}}</td>
-								<td><img src="{{asset('storage/image/'.$service->image)}}" alt=""></td>
                                 <td>
                             <p>
                     
-                            <form action="{{route('services.destroy',['service'=>$service->id])}}" method="post">
+                            <form action="{{route('newsletter.destroy',['newsletter'=>$newsletter->id])}}" method="post">
                               @method('delete')
                               @csrf
                               <button type="submit"><i class="fa fa-trash" style='font-size:36px;color:red'></i></button>
