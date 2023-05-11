@@ -29,8 +29,8 @@
                                 <td>
                             <p>
                     
-                            <form action="{{route('newsletter.destroy',['newsletter'=>$newsletter->id])}}" method="post">
-                              @method('delete')
+                            <form action="{{route('newleter.delete',['newsletter'=>$newsletter->id])}}" method="post">
+                              @method('put')
                               @csrf
                               <button type="submit"><i class="fa fa-trash" style='font-size:36px;color:red'></i></button>
                             </form>

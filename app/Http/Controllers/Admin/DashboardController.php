@@ -34,4 +34,9 @@ class DashboardController extends Controller
         $neslettersSuscribers = Newsletter::all();
         return view('admin.newsletterSuscriber',compact('neslettersSuscribers'));
     }
+
+    public function newsletterDestroy($id){
+        Newsletter::find($id)->delete();
+        return redirect()->back();
+    }
 }

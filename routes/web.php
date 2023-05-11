@@ -70,7 +70,7 @@ Route::middleware(['auth'])->group(function(){
         Route::get('/admin/contacts',[DashboardController::class, 'messages'])->name('admin.message');
         Route::get('/admin/newsletters',[DashboardController::class, 'newsletterSucribers'])->name('admin.newsletter');
         Route::resource('admin/actualites',ActualitesController::class);
-
+        Route::put('/admin/newsletters/{newsletter}',[DashboardController::class, 'newsletterDestroy'])->name('newleter.delete');
 
    
     });
