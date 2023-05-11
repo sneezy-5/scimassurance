@@ -40,7 +40,7 @@
                             <i class="fa fa-envelope-open fa-2x text-primary"></i>
                         </div>
                         <h4 class="mb-3">Address Email</h4>
-                        <p class="mb-2 titrepkw">contact@scimassurance.com</p>
+                        <p class="mb-2 titrepkw">contact@scimassurances.net</p>
                         <a class="btn btn-primary px-4" href="mailto:contact@scimassurance.com">Email<i
                                 class="fa fa-arrow-right ms-2"></i></a>
                     </div>

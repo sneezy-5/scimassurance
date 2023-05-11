@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Email pro</p>
-                                    <h6 class="mb-0 mailtxt">contact@ <br>scimassurance.com</h6>
+                                    <h6 class="mb-0 mailtxt">contact@ <br>scimassurance.net</h6>
                                 </div>
                             </div>
                         </div>
