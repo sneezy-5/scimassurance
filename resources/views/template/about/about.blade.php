@@ -47,7 +47,7 @@
                     </p>
 
                     
-                    <a href="about.html" class="btn btn-primary"> Voir plus</a>
+                    <a href="{{route('quisommesnous')}}" class="btn btn-primary"> Voir plus</a>
 
                     <div class="row pt-2">
                         <div class="col-sm-6">
