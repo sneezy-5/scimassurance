@@ -9,7 +9,7 @@
             <h1 class="display-3 text-white animated slideInRight">Contact</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="{{route('/')}}">Accueil</a></li>
                     
                     <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>

@@ -9,7 +9,7 @@
             <h1 class="display-3 text-white animated slideInRight">Nos actualités</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="{{route('/')}}">Accueil</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Nos actualités</li>
                 </ol>
             </nav>
@@ -26,53 +26,110 @@
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             @foreach ($multirisqpro as $multi)
-            <a class="project-item" href="">
+            <a class="project-item" href="{{route('multirisqpro')}}">
      
                 <img class="img-fluid" src="{{asset('storage/image/'.$multi->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Multirisque Professionnel</h5>
+                    <h5 class="text-primary mb-0">{{$multi->type}}</h5>
+                    
+                </div>
+                <div style="text-align: center;">
+                <p>{{$multi->title}}</p>
                 </div>
             </a>
             @endforeach
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo 6.jpg')}}" alt="">
+
+            @foreach ($assutrans as $trans)
+                
+            
+            <a class="project-item" href="{{route('assurancetrans')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$trans->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Transport</h5>
+                <h5 class="text-primary mb-0">{{$trans->type}}</h5>
+                    
                 </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/project-1.jpg')}}" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Tous Risque Chantier</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo (4).jpg')}}" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Multirisque Habitation</h5>
+                <div style="text-align: center;">
+                <p>{{$trans->title}}</p>
                 </div>
             </a>
 
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo.jpg')}}" alt="">
+            @endforeach
+
+            @foreach ($tousrisqchan as $chant)
+                
+            
+            <a class="project-item" href="{{route('tousrisqchan')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$chant->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Automobile</h5>
+                <h5 class="text-primary mb-0">{{$chant->type}}</h5>
+                    
+                </div>
+                <div style="text-align: center;">
+                <p>{{$chant->title}}</p>
+                </div>
+            </a>
+            @endforeach
+
+            @foreach ($multirisqhab as $habit )
+                
+            
+            <a class="project-item" href="{{route('multirisqhab')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$habit->image)}}" alt="">
+                <div class="project-title">
+                <h5 class="text-primary mb-0">{{$habit->type}}</h5>
+                    <p>{{$habit->title}}</p>
+                </div>
+                <div style="text-align: center;">
+                <p>{{$habit->title}}</p>
                 </div>
             </a>
 
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo (1).jpg')}}" alt="">
+            @endforeach
+            
+
+            @foreach ($assuauto as $auto)
+           
+            <a class="project-item" href="{{route('assuranceauto')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$auto->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Voyage</h5>
+                <h5 class="text-primary mb-0">{{$auto->type}}</h5>
+                   
                 </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo sante.jpg')}}" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Maladie</h5>
+                <div style="text-align: center;">
+                <p>{{$auto->title}}</p>
                 </div>
             </a>
 
+            @endforeach
+
+
+            @foreach ($assuvoy as $voya)
+                
+            <a class="project-item" href="{{route('assurancevoy')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$voya->image)}}" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">{{$voya->type}}</h5>
+                              
+                 </div>
+                 <div style="text-align: center;">
+                 <p>{{$voya->title}}</p>  
+                </div>
+            </a>
+            @endforeach
+
+            @foreach ($assumala as $mala)
+             
+            <a class="project-item" href="{{route('assurancemal')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$mala->image)}}" alt="">
+                <div class="project-title">
+                <h5 class="text-primary mb-0">{{$mala->type}}</h5>
+                         
+                </div>
+                <div style="text-align: center;">
+                <p>{{$mala->title}}</p>  
+                </div>
+            </a>
+            @endforeach
 
         </div>
     </div>

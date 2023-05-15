@@ -49,10 +49,10 @@
             <div class="col-lg-6 ps-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center text-white">
                     <span>Suivez-nous:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 text-end">

@@ -34,7 +34,7 @@
                     </p>
 
                     
-                    <a href="about.html" class="btn btn-primary"> Voir plus</a>
+                    <a href="{{route('quisommesnous')}}" class="btn btn-primary"> Voir plus</a>
 
                     <div class="row pt-2">
                         <div class="col-sm-6">
@@ -202,53 +202,111 @@
             <h1 class="display-5 text-white mb-5">Les Actualités sur nos produits</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
+        @foreach ($multirisqpro as $multi)
+            <a class="project-item" href="{{route('multirisqpro')}}">
      
-                <img class="img-fluid" src="{{asset('styles/img/promo 4.jpg')}}" alt="">
+                <img class="img-fluid" src="{{asset('storage/image/'.$multi->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Multirisque Professionnel</h5>
+                    <h5 class="text-primary mb-0">{{$multi->type}}</h5>
+                    
+                </div>
+                <div style="text-align: center;">
+                <p>{{$multi->title}}</p>
                 </div>
             </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo 6.jpg')}}" alt="">
+            @endforeach
+
+            @foreach ($assutrans as $trans)
+                
+            
+            <a class="project-item" href="{{route('assurancetrans')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$trans->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Transport</h5>
+                <h5 class="text-primary mb-0">{{$trans->type}}</h5>
+                    
                 </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/project-1.jpg')}}" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Tous Risque Chantier</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo (4).jpg')}}" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Multirisque Habitation</h5>
+                <div style="text-align: center;">
+                <p>{{$trans->title}}</p>
                 </div>
             </a>
 
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo.jpg')}}" alt="">
+            @endforeach
+
+            @foreach ($tousrisqchan as $chant)
+                
+            
+            <a class="project-item" href="{{route('tousrisqchan')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$chant->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Automobile</h5>
+                <h5 class="text-primary mb-0">{{$chant->type}}</h5>
+                    
+                </div>
+                <div style="text-align: center;">
+                <p>{{$chant->title}}</p>
+                </div>
+            </a>
+            @endforeach
+
+            @foreach ($multirisqhab as $habit )
+                
+            
+            <a class="project-item" href="{{route('multirisqhab')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$habit->image)}}" alt="">
+                <div class="project-title">
+                <h5 class="text-primary mb-0">{{$habit->type}}</h5>
+                    
+                </div>
+                <div style="text-align: center;">
+                <p>{{$habit->title}}</p>
                 </div>
             </a>
 
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo (1).jpg')}}" alt="">
+            @endforeach
+            
+
+            @foreach ($assuauto as $auto)
+           
+            <a class="project-item" href="{{route('assuranceauto')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$auto->image)}}" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Voyage</h5>
+                <h5 class="text-primary mb-0">{{$auto->type}}</h5>
+                    
                 </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="{{asset('styles/img/promo sante.jpg')}}" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Assurance Maladie</h5>
+                <div style="text-align: center;">
+                <p>{{$auto->title}}</p>
                 </div>
             </a>
 
+            @endforeach
 
+
+            @foreach ($assuvoy as $voya)
+                
+            <a class="project-item" href="{{route('assurancevoy')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$voya->image)}}" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">{{$voya->type}}</h5>
+                                
+                 </div>
+                 <div style="text-align: center;">
+                    <p>{{$voya->title}}</p>
+                </div>
+            </a>
+            @endforeach
+
+            @foreach ($assumala as $mala)
+             
+            <a class="project-item" href="{{route('assurancemal')}}">
+                <img class="img-fluid" src="{{asset('storage/image/'.$mala->image)}}" alt="">
+                <div class="project-title">
+                <h5 class="text-primary mb-0">{{$mala->type}}</h5>
+                         
+                </div>
+                <div style="text-align: center;">
+                <p>{{$mala->title}}</p>
+                </div>
+            </a>
+            @endforeach
         </div>
     </div>
     <!-- Project End -->
@@ -281,7 +339,7 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="MultirisqueProfessionnel.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('multirisqpro')}}">Voir Plus</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -303,7 +361,7 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="AssuranceTransport.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('assurancetrans')}}">Voir Plus</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -323,7 +381,7 @@
                                 <p class="text-white mb-0">Ce poduit couvre l'ouvrage contre les dommages materiels qui pourraient survenir pendant la durée de vos travaux; Garanties offertes;...</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="tousrisque.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('tousrisqchan')}}">Voir Plus</a>
                     </div>
                 </div>
             </div>
@@ -354,7 +412,7 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="Multirisquehabitat.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('multirisqhab')}}">Voir Plus</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -376,7 +434,7 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="assurancevoya.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('assurancevoy')}}">Voir Plus</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -396,7 +454,7 @@
                                 <p class="text-white mb-0">Cette assurance a pour objet de garantir les frais médicaux, de la pharmacie, des analyses médicales ou ....</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="assurancemalad.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('assurancemal')}}">Voir Plus</a>
                     </div>
                 </div>
 
@@ -417,7 +475,7 @@
                                 <p class="text-white mb-0">L'assurance auto a pour objet de couvrir votre responsabilité civil en tant que propriétaire d'un véhicule.D'autres risques sont disponibles pour la protection de votre...</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="assuranceautomo.html">Voir Plus</a>
+                        <a class="btn btn-light" href="{{route('assuranceauto')}}">Voir Plus</a>
                     </div>
                 </div>
             </div>

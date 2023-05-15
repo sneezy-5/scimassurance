@@ -12,7 +12,7 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">sCim Assurances</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">Votre maison protégée partout.</h1>
-                                    <a href="contact.html" class="btn btn-primary py-3 px-5 animated slideInRight">Contactez-Nous</a>
+                                    <a href="{{route('contact.index')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Contactez-Nous</a>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">sCim Assurances</p>
                                     <h1 class="display-2 text-white mb-5 animated slideInRight">L'assurance qui vous protège vous et votre famille.</h1>
-                                    <a href="contact.html" class="btn btn-primary py-3 px-5 animated slideInRight">Contactez-Nous</a>
+                                    <a href="{{route('contact.index')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Contactez-Nous</a>
                                 </div>
                             </div>
                         </div>
