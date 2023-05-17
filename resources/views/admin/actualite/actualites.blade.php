@@ -28,7 +28,7 @@
 								<th scope="row">{{$actualite->id}}</th>
 								<td>{{$actualite->title}}</td>
 								<td>{{$actualite->description}}</td>
-								<td><img src="{{asset('storage/image/'.$actualite->image)}}" alt=""></td>
+								<td><img src="{{asset('storage/image/'.$actualite->image)}}" alt="article-image" width="100" height="100"></td>
                                 <td>
                             <p>
                             <a href="{{route('actualites.edit',['actualite'=>$actualite->id])}}"><i class="fa fa-edit"  style='font-size:36px'></i></a> 

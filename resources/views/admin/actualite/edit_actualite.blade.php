@@ -13,13 +13,13 @@
 							<div class="form-group row">
 								<label for="exampleSelectGender">Type de actualité</label>
 								<select class="form-control" id="exampleSelectGender" name="type" style="width:1000px;">
-								<option value="assuranceauto">assurance auto</option>
-								<option value="assurancemaladie">assurance maladie</option>
-								<option value="assurancetransport">assurance transport</option>
-								<option value="assurancevoyage">assurance voyage</option>
-								<option value="multirisquehabitation">multirisque habitation</option>
-								<option value="multirisqueprofessionnel">multirisque professionnel</option>
-								<option value="tousrisquechantier">tousrisque chantier</option>
+								<option value="Assurance auto">assurance auto</option>
+								<option value="Assurance maladie">assurance maladie</option>
+								<option value="Assurance transport">assurance transport</option>
+								<option value="Assurance voyage">assurance voyage</option>
+								<option value="Multirisque habitation">multirisque habitation</option>
+								<option value="Multirisque professionnel">multirisque professionnel</option>
+								<option value="Tousrisque chantier">tousrisque chantier</option>
 								</select>
 							</div>
 							</div>
@@ -32,7 +32,7 @@
 						</div>
 						<div class="form-group">
                             <label>Description </label>
-                            <textarea class="form-control" name="description"> value="{{$actualite->description}}"></textarea>
+                            <textarea class="form-control" name="description">{{$actualite->description}}</textarea>
                         </div>
 						<div class="form-group row">
 							<label class="col-sm-12 col-md-2 col-form-label">Image</label>
