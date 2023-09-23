@@ -27,6 +27,8 @@
                 <a href="{{route('contact.index')}}" class="nav-item nav-link">Contactez-Nous</a>
             </div>
             <a href="{{route('actualite')}}" class="btn btn-primary px-3 d-none d-lg-block">Nos actualités</a>
+            
         </div>
+        
     </nav>
     <!-- Navbar End -->
