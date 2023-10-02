@@ -6,7 +6,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Contact</h1>
+            <h1 class="display-3 text-white animated slideInRight">Contacts</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="{{route('/')}}">Accueil</a></li>
@@ -30,7 +30,7 @@
                         </div>
                         <h4 class="mb-3">Contacts</h4>
                         <p class="mb-2">+225 2720272736</p>
-                        <a class="btn btn-primary px-4" href="tel:+2252720272736">Contactez-Nous <i
+                        <a class="btn btn-primary px-4" href="tel:+2252720272736">Contactez-nous, nous vous conseillerons<i
                                 class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -50,9 +50,9 @@
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Local</h4>
-                        <p class="mb-2">Abidjan Adjamé, face Fraternité Matin</p>
-                        <a class="btn btn-primary px-4" href="https://goo.gl/maps/FsznshxgnULBGgkN9"
+                        <h4 class="mb-3">Situation géographique</h4>
+                        <p class="mb-2">Abidjan, Indenier, face Fraternité Matin</p>
+                        <a class="btn btn-primary px-4" href="https://www.google.com/maps/place/SCIM+ASSURANCES/@5.3450743,-4.0176674,15z/data=!4m2!3m1!1s0x0:0xa0182e159741de7c?sa=X&ved=2ahUKEwjrwdeduMuBAxVdU0EAHT3vCooQ_BJ6BAhMEAA&ved=2ahUKEwjrwdeduMuBAxVdU0EAHT3vCooQ_BJ6BAhcEAM"
                             target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>

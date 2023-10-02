@@ -32,7 +32,7 @@
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="{{route('/')}}">Accueil</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Assurance Maladie</a></li> 
+                                    <li class="breadcrumb-item"><a href="#">Assurance Maladie</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -49,7 +49,7 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="{{asset('styles/img/NEW (4).jpg')}}" alt="" style="width: 100%;">
+                                <img src="{{asset('images/assurancemaladie.jpg')}}" alt="" style="width: 100%;">
                             </div>
                             <div class="details-caption">
 
@@ -66,6 +66,6 @@
         </div>
         <!-- Services Details End -->
     </main>
-    
+
 @endsection
 

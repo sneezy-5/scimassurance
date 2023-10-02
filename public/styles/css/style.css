@@ -148,6 +148,12 @@ h6,
     margin-left: 8px;
 }
 
+@media only screen and (max-width:1194px) {
+    .service-img{
+        width: 150px!important;;
+        height: 40px!important;;
+    }
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;

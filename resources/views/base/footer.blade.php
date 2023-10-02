@@ -29,21 +29,20 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Horaires</h5>
                     <p class="mb-1">Lundi - Vendredi</p>
-                    <h6 class="text-light">08:00 am - 17:00 pm</h6>
-                    <p class="mb-1">Saturday</p>
-                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <h6 class="text-light">08h00  - 17h00 </h6>
+                    <p class="mb-1">Samedi</p>
+                    <h6 class="text-light">09h00  - 12h00 </h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
                     <p>
-                        Inscrivez-vous à notre newsletters et rester informé des offres spéciales exclusives.
-                    </p>
+                    Inscrivez-vous à notre newsletter et restez informé des offres spéciales exclusives.                    </p>
                     <form class="position-relative w-100 formletter" action="{{route('newsletter.store')}}" method="post">
                     @csrf
-                        <input name="adresse_mail" class="form-control bg-transparent w-100 py-3 ps-4 pe-5 caseletter" type="email"
+                        <input name="adresse_mail" class="form-control bg-transparent w-100 text-white  caseletter" type="email"
                             placeholder="Email">
                         <button type="submit"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                            class="btn btn-primary py-2 position-absolute  mt-2 me-2">S'inscrire</button>
                     </form>
                     @if(Session::has('success'))
         <div class="alert alert-success" style="text-align:center; height:auto; width:auto; font-size:15px">

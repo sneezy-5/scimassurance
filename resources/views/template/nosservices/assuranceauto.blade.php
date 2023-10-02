@@ -46,7 +46,7 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="{{asset('styles/img/NEW (2).png')}}" alt="" style="width: 100%;">
+                                <img src="{{asset('styles/img/assutransport.jpg')}}" alt="" style="width: 100%;">
                             </div>
                             <div class="details-caption">
 

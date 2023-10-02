@@ -1,7 +1,7 @@
 @extends('base.accueilapp')
 
 @section('content')
-    
+
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -32,8 +32,8 @@
                                 <h2>Assurance Transport</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Assurance Transport</a></li> 
+                                    <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Assurance Transport</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -50,13 +50,13 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="{{asset('styles/img/assutransport.jpg')}}" alt="" style="width: 100%;">
+                                <img src="{{asset('images/assurancetransport.jpg')}}" alt="" style="width: 100%;">
                             </div>
                             <div class="details-caption">
 
                                 <p class="mb-50 mt-3">
-                                    Vous souhaitez acheminer vos marchandises en toute sécurité par voie maritime, aérienne ou terrestre ? 
-                                    la sCim assure vos marchandises jusqu'à la livraison au destinataire final. Risques couverys : 
+                                    Vous souhaitez acheminer vos marchandises en toute sécurité par voie maritime, aérienne ou terrestre ?
+                                    la sCim assure vos marchandises jusqu'à la livraison au destinataire final. Risques couverys :
                                     <ul>
                                         <li>Incendie en cours de transport</li>
                                         <li>Accident de la circulation</li>
@@ -74,8 +74,8 @@
         </div>
         <!-- Services Details End -->
     </main>
-    
-    
+
+
 
 
 
