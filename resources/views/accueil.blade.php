@@ -341,9 +341,9 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <img class="img-fluid" src="{{asset('images/nosservicesAssurancetransport.jpg')}}" alt="">
+                        <img class="img-fluid" src="{{asset('images/assurancetransport.jpg')}}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="{{asset('images/nosservicesAssurancetransport.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('images/assurancetransport.jpg')}}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -392,9 +392,9 @@
             <div class="row gy-5 gx-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <img class="img-fluid" src="{{asset('images/family.png')}}" alt="">
+                        <img class="img-fluid" src="{{asset('images/Multirisquehabitation.jpg')}}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="{{asset('images/family.png')}}" alt="">
+                            <img class="img-fluid" src="{{asset('images/Multirisquehabitation.jpg')}}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">

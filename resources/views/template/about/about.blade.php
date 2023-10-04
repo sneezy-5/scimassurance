@@ -25,16 +25,14 @@
     <div class="container-xxl py-5">
 
         <div class="container">
-            
+
             <div class="row g-5">
-                <div class="col-lg-6">
+            <div class="col-lg-6">
                     <div class="row gx-3 h-100">
-                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="{{asset('styles/img/img (10).jpg')}}">
+                        <div class="col-6 align-self-start wow fadeInUp w-100" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="{{asset('images/about.jpg')}}">
                         </div>
-                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="{{asset('styles/img/img (9).jpg')}}">
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -46,8 +44,8 @@
 
                     </p>
 
-                    
-                  
+
+
 
                     <div class="row pt-2">
                         <div class="col-sm-6">
@@ -78,8 +76,8 @@
         </div>
     </div>
     <!-- About End -->
-    
-    
+
+
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
@@ -159,7 +157,7 @@
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px;">
-                                <h5>Adriane</h5>
+                                <h5>OLAYODE Semirat</h5>
                                 <span class="text-primary">ASSISTANTE DE DIRECTION</span>
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
@@ -173,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-             
+
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <img class="img-fluid" src="{{asset('images/comptable.jpg')}}" alt="">
@@ -183,7 +181,7 @@
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px;">
-                                <h5>Wilfried Ouattara</h5>
+                                <h5>Constantin KOUAME</h5>
                                 <span class="text-primary">SERVICE COMPTABLE</span>
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
@@ -206,7 +204,7 @@
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px;">
-                                <h5>Wilfried Ouattara</h5>
+                                <h5>KOUEHI Bridji Franck</h5>
                                 <span class="text-primary">SERVICE COMMERCIAL</span>
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
@@ -221,7 +219,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     </div>
@@ -284,8 +282,8 @@
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-        <p>Merci de prendre attache avec nos différents services via le numéro et l’adresse mail suivant :</p> 
-        <p>Tel : +225 27 20 38 17 86/ 07 07 04 04 94/ 05 46 44 44 44</p> 
+        <p>Merci de prendre attache avec nos différents services via le numéro et l’adresse mail suivant :</p>
+        <p>Tel : +225 27 20 38 17 86/ 07 07 04 04 94/ 05 46 44 44 44</p>
         <p>Mail : scim.assurance@gmail.com</p>
       </div>
     </div>

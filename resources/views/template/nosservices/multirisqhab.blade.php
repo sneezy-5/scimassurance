@@ -51,7 +51,7 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="{{asset('images/Multirisquehabitation.jpg')}}" alt="" style="width: 100%;">
+                                <img src="{{asset('images/family.png')}}" alt="" style="width: 100%;">
                             </div>
                             <div class="details-caption">
 

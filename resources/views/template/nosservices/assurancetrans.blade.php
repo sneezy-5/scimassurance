@@ -50,7 +50,7 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="{{asset('images/assurancetransport.jpg')}}" alt="" style="width: 100%;">
+                                <img src="{{asset('images/nosservicesAssurancetransport.jpg')}}" alt="" style="width: 100%;">
                             </div>
                             <div class="details-caption">
 
