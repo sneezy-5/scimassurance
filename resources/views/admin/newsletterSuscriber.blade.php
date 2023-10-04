@@ -8,10 +8,10 @@
 <div class="pd-20 card-box mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue h4">Services</h4>
-						
+							<h4 class="text-blue h4">newsletter</h4>
+
 						</div>
-					
+
 					</div>
 					<table class="table">
 						<thead>
@@ -28,21 +28,21 @@
 								<td>{{$newsletter->adresse_mail}}</td>
                                 <td>
                             <p>
-                    
+
                             <form action="{{route('newleter.delete',['newsletter'=>$newsletter->id])}}" method="post">
                               @method('put')
                               @csrf
-                              <button type="submit"><i class="fa fa-trash" style='font-size:36px;color:red'></i></button>
+                              <button type="submit"><i class="fa fa-trash" style='font-size:1.2rem;color:red'></i></button>
                             </form>
-                         
-                            
+
+
                             </p>
-                
-                      
+
+
                           </td>
 							</tr>
                             @endforeach
-						
+
 						</tbody>
 					</table>
 				</div>

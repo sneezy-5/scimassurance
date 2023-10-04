@@ -50,7 +50,7 @@ Route::get('/nosservices/assurancemaladie', [AssuranceMalController::class, 'ind
 
 Route::get('/nosservices/assuranceautomobile', [AssuranceAutoController::class, 'index'])->name('assuranceauto');
 
-// formulaire 
+// formulaire
 Route::resource('/contact', ContactController::class)->only([
         "index","store"
     ]
@@ -63,18 +63,21 @@ Route::resource('/newsletter', NewsletterController::class)->only([
 
 
 
-
+/**
+ * admin root
+ * middleware set ato auth user when is loggin
+*/
 Route::middleware(['auth'])->group(function(){
-        
+
         Route::get('/admin/dashboard',[DashboardController::class, 'index']);
         Route::get('/admin/contacts',[DashboardController::class, 'messages'])->name('admin.message');
         Route::get('/admin/newsletters',[DashboardController::class, 'newsletterSucribers'])->name('admin.newsletter');
         Route::resource('admin/actualites',ActualitesController::class);
         Route::put('/admin/newsletters/{newsletter}',[DashboardController::class, 'newsletterDestroy'])->name('newleter.delete');
 
-   
+
     });
-    
+
 
 
 require __DIR__.'/auth.php';
